@@ -1,0 +1,41 @@
+/* Reset CSS */
+
+/* Box-sizing border-box por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elimina los márgenes y el relleno por defecto */
+h1,
+h2,
+h3,
+h4,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegura que los elementos listados tengan una lista de viñetas o números consistentes */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Elimina posibles estilos de fuente heredados */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Establecer estilos basicos para los enlaces */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* Establecer estilos basicos para las imagenes */
+img{
+    max-width: 100%;
+    height: auto;
+}
